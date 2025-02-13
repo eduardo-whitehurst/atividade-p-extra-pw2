@@ -1,4 +1,4 @@
-import IconeMapPinRegular from "@/assets/icons/map-pin-line-regular.svg"
+import IconeMapPinRegular from "/icons/map-pin-line-regular.svg"
 import InputField from "@/components/InputField"
 
 function FormEnderecoEntrega() {
