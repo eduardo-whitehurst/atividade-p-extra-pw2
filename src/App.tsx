@@ -1,6 +1,6 @@
 function App() {
   return (
-    <h1 className='text-6xl'>Teste</h1>
+    <h1 className='text-6xl bg-purple'>Teste</h1>
   )
 }
 
