@@ -1,8 +1,13 @@
+//Componentes
+import { HeaderPage } from "../components/Header";
 import ProductWrapper from "../components/ProductWrapper/ProductWrapper";
 
 function Home() {
     return (
-        <ProductWrapper />
+        <div className="">
+            <HeaderPage/>
+            <ProductWrapper />
+        </div>
     );
 }
 
