@@ -2,7 +2,9 @@ import ProductWrapper from "../components/ProductWrapper/ProductWrapper";
 
 function Home() {
     return (
-        <ProductWrapper />
+        <div className="pr-[15rem] pl-[15rem]">
+            <ProductWrapper />
+        </div>
     );
 }
 
