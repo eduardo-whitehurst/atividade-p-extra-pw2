@@ -7,7 +7,7 @@ export default function OrderSummary() {
   ]);
   const deliveryFee = 3.5;
 
-  const updateQuantity = (id, delta) => {
+  const updateQuantity = (id: number, delta: number) => {
     setItems((prevItems) =>
       prevItems
         .map((item) =>
@@ -17,7 +17,7 @@ export default function OrderSummary() {
     );
   };
 
-  const removeItem = (id) => {
+  const removeItem = (id: number) => {
     setItems((prevItems) => prevItems.filter((item) => item.id !== id));
   };
 
@@ -32,7 +32,7 @@ export default function OrderSummary() {
           <span className="text-2xl">{item.image}</span>
           <div className="flex flex-col flex-1 ml-4">
             <span className="font-semibold">{item.name}</span>
-            <span className="text-gray-600">R$ {item.price * item.quantity}</span>
+            <span className="text-gray-600">R$ {(item.price * item.quantity).toFixed(2)}</span>
           </div>
           <div className="flex items-center">
             <button onClick={() => updateQuantity(item.id, -1)} className="px-2 py-1 text-lg">-</button>
