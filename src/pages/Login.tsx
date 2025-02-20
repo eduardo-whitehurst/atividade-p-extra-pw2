@@ -25,7 +25,20 @@ const Login = () => {
           <div className='flex items-center'>
             <div className='pt-3'>
               <div className='flex flex-col gap-4 w-lg justify-center items-center '>
-
+              <div className='flex flex-col w-full'>
+                  <form className='flex flex-col gap-2.5 w-full'>
+                    <div>
+                      <label className='font-bold'>Email</label>
+                      <input type="email" className='w-full h-9 bg-white pl-4 rounded-md' placeholder='Digite seu email'/>
+                    </div>
+                    <div>
+                      <label className='font-bold'>Senha</label>
+                      <input type="password" className='w-full h-9 bg-white pl-4 rounded-md' placeholder='Digite seu email'/>
+                    </div>
+                    <button className='bg-[#34C759] w-full h-11 rounded-md text-white font-bold mt-8'>Login</button>
+                    <button className='bg-[#FFCC00] w-full h-11 rounded-md text-[#8D8686] font-bold'>Login com Google</button>
+                  </form>
+                </div>
                 <p className='font-bold'>Não tem conta? <a className='text-[#007AFF]'>Cadastre-se gratuitamente!</a></p>
               </div>
             </div>
