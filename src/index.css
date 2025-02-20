@@ -19,4 +19,7 @@
   --color-base-input: oklch(0.913 0.033 0.019);
   --color-base-card: oklch(0.955 0.033 0.019);
   --color-background: oklch(0.975 0.033 0.019);
+
+  --font-sans: "Roboto", serif;
+  --font-baloo: "Baloo 2", sans-serif;
 }
