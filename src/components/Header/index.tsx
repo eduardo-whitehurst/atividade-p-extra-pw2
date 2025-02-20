@@ -11,7 +11,7 @@ export const HeaderPage = () => {
 
     return (
         <nav className="flex flex-row justify-between items-center mt-6 w-4/5 mx-auto">
-            <img src='/images/home/logoIfF.png' alt="Logo" className="w-52" />
+            <img src='/images/home/logoIfF.png' alt="Logo" className="w-35" />
 
             <div className="flex flex-row justify-between items-center gap-1.5">
                 <div className="flex flex-row justify-between items-center bg-[#EBE5F9] p-1 rounded-b-lg">
